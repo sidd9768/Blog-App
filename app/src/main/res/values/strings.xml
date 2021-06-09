@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">OnlyFullStop</string>
+    <string name="pass_hint">Password</string>
+    <string name="mail_hint">E-mail address</string>
+    <string name="Login_image">Login Screen Image</string>
+    <string name="login_acc">Login</string>
+    <string name="log_reg_button">Need a new Account?</string>
+    <string name="action_search_text">Search</string>
+    <string name="action_setting_search">Account</string>
+    <string name="action_logout_text">Logout</string>
+    <string name="reg_btn">Create new Account</string>
+    <string name="reg_login_text">Already have an account?</string>
+    <string name="reg_pass_text">Password</string>
+    <string name="reg_confirm_pass_text">Confirm Password</string>
+    <string name="setup_firstname_hint">First name</string>
+    <string name="setup_lastname_hint">Last name</string>
+    <string name="setup_btn_text">Save Account Settings</string>
+    <string name="setup_save_btn">Save Settings</string>
+    <string name="new_post_desc">Add Description...</string>
+    <string name="new_post_button_text">Post Blog</string>
+    <string name="new_post_title">Add Title...</string>
+    <string name="bottom_home_text" />
+    <string name="bottom_home_txt">Home</string>
+    <string name="bottom_special_text">Special</string>
+    <string name="bottom_account_text">Account</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="comment_text">Comments</string>
+    <string name="comment_edit_text">Your comment here...</string>
+    <string name="comment_user_txt">username</string>
+    <string name="search_here_text">Type Here</string>
+    <string name="search_text">Type here...</string>
+    <string name="splash_every_text">For everything...</string>
+
+    <string name="card_content">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</string>
+    <string name="edit_profile_account_fragment">Edit Profile</string>
+    <string name="setup_bio_hint_text">Bio</string>
+    <string name="user_bio_account_Fragment">Bio:</string>
+    <string name="login_edittext_hint">Username</string>
+    <string name="login_password_hint">Password</string>
+    <string name="reg_page_login_txt">Already have an account?</string>
+    <string name="Open">Open</string>
+    <string name="Close">Close</string>
+    <string name="account">Account</string>
+    <string name="logout">Logout</string>
+
+</resources>

@@ -1,0 +1,33 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="RedAccent" parent="ThemeOverlay.AppCompat.Light">
+        <item name="colorAccent">#FFFFFF</item>
+    </style>
+
+    <style name="Progress_signup" parent="ThemeOverlay.AppCompat.Light">
+        <item name="colorAccent">@color/likeNcomment</item>
+    </style>
+
+
+    <style name="MyHintStyle" parent="@android:style/TextAppearance">
+        <item name="android:textColor">@color/whitetransparentHalf</item>
+    </style>
+
+    <style name="MyHintStyle1" parent="@android:style/TextAppearance">
+        <item name="android:textColor">@color/likeNcomment</item>
+    </style>
+
+    <style name="TextInputLayoutStyleSignup" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="boxStrokeColor">@color/likeNcomment</item>
+        <item name="boxStrokeWidth">2dp</item>
+    </style>
+
+</resources>

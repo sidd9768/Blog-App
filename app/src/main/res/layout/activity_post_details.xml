@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".PostDetailsActivity">
+
+    <ImageView
+        android:id="@+id/image_blog_detail"
+        android:layout_width="375dp"
+        android:layout_height="200dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/image_placeholder" />
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginBottom="1dp"
+        android:layout_marginTop="2dp"
+        android:background="@color/white"
+        app:layout_constraintBottom_toTopOf="@+id/scrollView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/image_blog_detail" />
+
+    <TextView
+        android:id="@+id/title_blog_detail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="8dp"
+        android:fontFamily="@font/open_sans"
+        android:textStyle="bold"
+        android:text="Title of the Post"
+        android:textColor="@android:color/black"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="@+id/view"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/image_blog_detail"
+        app:layout_constraintTop_toTopOf="@+id/view" />
+
+<!--    <ImageView-->
+<!--        android:id="@+id/blog_detail_pin"-->
+<!--        android:layout_width="15dp"-->
+<!--        android:layout_height="15dp"-->
+<!--        android:layout_marginStart="8dp"-->
+<!--        android:layout_marginLeft="8dp"-->
+<!--        android:layout_marginTop="8dp"-->
+<!--        app:layout_constraintStart_toStartOf="@+id/image_blog_detail"-->
+<!--        app:layout_constraintTop_toTopOf="@+id/image_blog_detail"-->
+<!--        app:srcCompat="@drawable/circular_search" />-->
+
+<!--    <ImageView-->
+<!--        android:id="@+id/blog_detail_pin_1"-->
+<!--        android:layout_width="15dp"-->
+<!--        android:layout_height="15dp"-->
+<!--        android:layout_marginTop="8dp"-->
+<!--        android:layout_marginEnd="8dp"-->
+<!--        android:layout_marginRight="8dp"-->
+<!--        app:layout_constraintEnd_toEndOf="@+id/image_blog_detail"-->
+<!--        app:layout_constraintTop_toTopOf="@+id/image_blog_detail"-->
+<!--        app:srcCompat="@drawable/circular_search" />-->
+
+<!--    <ImageView-->
+<!--        android:id="@+id/blog_detail_pin_2"-->
+<!--        android:layout_width="15dp"-->
+<!--        android:layout_height="15dp"-->
+<!--        android:layout_marginStart="8dp"-->
+<!--        android:layout_marginLeft="8dp"-->
+<!--        android:layout_marginBottom="8dp"-->
+<!--        app:layout_constraintBottom_toBottomOf="@+id/image_blog_detail"-->
+<!--        app:layout_constraintStart_toStartOf="@+id/image_blog_detail"-->
+<!--        app:srcCompat="@drawable/circular_search" />-->
+
+<!--    <ImageView-->
+<!--        android:id="@+id/blog_detail_pin_3"-->
+<!--        android:layout_width="15dp"-->
+<!--        android:layout_height="15dp"-->
+<!--        android:layout_marginEnd="8dp"-->
+<!--        android:layout_marginRight="8dp"-->
+<!--        android:layout_marginBottom="8dp"-->
+<!--        app:layout_constraintBottom_toBottomOf="@+id/image_blog_detail"-->
+<!--        app:layout_constraintEnd_toEndOf="@+id/image_blog_detail"-->
+<!--        app:srcCompat="@drawable/circular_search" />-->
+
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view">
+
+        <TextView
+            android:id="@+id/descriptionOfPost"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginRight="16dp"
+            android:fontFamily="@font/roboto"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="16sp" />
+
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

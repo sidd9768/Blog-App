@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#044771</color>
+    <color name="colorPrimaryDark">#03263A</color>
+    <color name="colorAccent">#F44336</color>
+    <color name="likeNcomment">#5B9DC2</color>
+
+    <color name="whitetransparentHalf">#80FFFFFF</color>
+
+    <color name="signUpPageButton">#31918E</color>
+    <color name="likeButtonGrey">#747474</color>
+    <color name="likeButtonAccent">#F44336</color>
+    <color name="white">#FEFEFE</color>
+    <color name="background">#F0F0F0</color>
+    <color name="colorPrimaryLight">#1E3446</color>
+    <color name="toolbarColor">#0F3550</color>
+    <color name="lightMainColor">#C8DDEB</color>
+
+</resources>
